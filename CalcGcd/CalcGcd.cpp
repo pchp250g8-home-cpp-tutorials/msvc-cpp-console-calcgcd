@@ -34,7 +34,7 @@ int main()
     }
     else
     {
-        std::cout << "The numbers must be not equal 0\r\n";
+        std::cout << "The numbers should not be equal 0\r\n";
     }
     std::cin.ignore();
     std::cin.get();
