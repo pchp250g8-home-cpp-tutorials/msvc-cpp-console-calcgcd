@@ -2,6 +2,15 @@ CalcGcd. C++ Tutorials. Microsoft Visual Studio IDE. Simple Input/Output. Algori
 
 A console application in the C++ programming language. 
 The program does the following:
+  1. Prompts the user for two integers whose greatest common divisor needs to be found.
+  2. Compares each to zero. If at least one of them is zero, the program displays a message stating that the numbers must not be zero-valued and terminates.
+  3. If the numbers are not equal to zero, the two temporary variables are assigned their absolute values.
+  4. In a loop with a precondition, the Euclidean algorithm is executed:
+    4.1. The numbers are checked to see if they are equal. If so, the loop ends and the program moves to step 5.
+    4.2. In the loop, it is determined which number is greater (the conditional branching operator is executed).
+    4.3. If the first number is greater than the second, then the second number is subtracted from the first; otherwise, the first number is subtracted from the second.
+  5. The entered numbers and their greatest common divisor are displayed on the screen.
+
 Developed in the Microsoft Visual Studio integrated environment.
 
 CalcGcd. ИС Visual Studio. Занятия по C++. Простой Ввод/Вывод. Алгоритмы. Платформа Windows. Консольное приложение.
